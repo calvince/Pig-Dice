@@ -27,3 +27,21 @@ body{
 .cont-2{
     background-color: #fff;
 }
+#btn-1{
+    color: #fff;
+}
+.rollDice1,.globalScore1,.rollDice2,.globalScore2{color: #fff;}
+ul li{
+    padding-right: 30px;
+}
+
+@media only screen and(max-width:450px){
+    #btn-2-id{
+        width: 100%;
+    }
+}
+/* @media screen and (max-width:1024px) {
+    * {
+        font-size: calc(1vw + 1vh + .5vmin);
+    }
+} */

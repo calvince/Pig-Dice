@@ -7,3 +7,23 @@
     box-sizing: border-box;
     font-family: 'Atma', cursive;
 }
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: #f2f2f2;
+}
+.cont-2 h1{
+    font-family: 'Fredericka the Great', cursive;
+    margin-bottom: 8%;
+    padding-top: 6%;
+}
+
+.cont-2{
+    background-color: #fff;
+}

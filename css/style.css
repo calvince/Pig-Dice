@@ -1,0 +1,9 @@
+@import url("https://fonts.googleapis.com/css?family=Carter+One");
+@import url("https://fonts.googleapis.com/css?family=Carter+One|Fredericka+the+Great");
+@import url("https://fonts.googleapis.com/css?family=Atma|Carter+One|Fredericka+the+Great");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Atma', cursive;
+}

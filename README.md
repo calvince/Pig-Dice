@@ -14,9 +14,9 @@
 
 ## Setup instructions
 
-* Clone the program from [Online repo](https://github.com/calvince/Delani-Studio)
-* Click on the green button to clone or download
-* Open a HTML file with the browser of your choice
+* _Clone the program from [Online repo](https://github.com/calvince/Delani-Studio)_
+* _Click on the green button to clone or download_
+* _Open a HTML file with the browser of your choice_
 
 ## Behavior Driven Development
 <table>
@@ -52,12 +52,15 @@
     </tr>   
 </table>
 
+####Bugs
+* _the functionality is not fully implemented_
+
 ## Technologies Used
-* HTML
-* CSS
-* Bootsrap
-* JQuery
-* Javascript
+* _HTML_
+* _CSS_
+* _Bootsrap_
+* _JQuery_
+* _Javascript_
 
 ## Support and contact details
 contact me @ calmosh1421@gmail.com

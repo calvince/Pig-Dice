@@ -22,28 +22,29 @@
         </div>
         <div id="hide">
             <div class="row rw-2 text-center">
-                <div class="col-md-4 active player-0-panel">
+                <div class="col-md-4 active player-0-panel player">
                     <button type="button" id="btn-2" class="btn lime lighten-5 ">Player1<br>
-                        <hr><span class="btn-2 ">0</span></button>
-                    <p class="rlr">Dice roll:<span class="rollDice1"></span></p><br>
-                    <p class="rlr">Turn score:<span class="globalScore1"></span></p>
+                        <hr><span class="btn-2" id="roll-1">0</span></button>
+                    <p class="rlr">Dice roll:<span class="rollDice1" id="rol-dice-0"></span></p><br>
+                    <p class="rlr">Turn score:<span class="globalScore1" id="turnScore"></span></p>
                 </div>
                 <div class="col-md-4 ">
-                    <button type="button" id="btn-2" id="new-game" class="btn lime lighten-5 "><i class="fas fa-plus-circle"></i>New
+                    <button type="button" id="btn-2" id="new-game" class="btn lime lighten-5 "><i
+                            class="fas fa-plus-circle"></i>New
                         Game</button>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 player-1-panel hide player">
                     <button type="button" id="btn-2" class="btn lime lighten-5">Player2<br>
-                        <hr><span class="btn-2 ">0</span></button>
-                    <p class="rlr">Dice roll:<span class="rollDice2"></span></p><br>
-                    <p class="rlr">Turn score:<span class="globalScore2"></span></p>
+                        <hr><span class="btn-2 " id="roll-2">0</span></button>
+                    <p class="rlr">Dice roll:<span class="rollDice2" id="rol-dice-2"></span></p><br>
+                    <p class="rlr">Turn score:<span class="globalScore2" id="turnScore2"></span></p>
                 </div>
             </div>
             <div class="row rw-3 text-center">
                 <div class="col-md-12">
-                    <button class="btn btn-roll mdb-color darken-3 rlr btn-roll "><i
+                    <button class="btn btn-roll mdb-color darken-3 rlr btn-roll" id="btn-fn-1"><i
                             class="fas fa-volleyball-ball"></i>Roll</button>
-                    <button class="btn btn-hold mdb-color darken-3 rlr btn-hold"><i
+                    <button class="btn btn-hold mdb-color darken-3 rlr btn-hold" id="btn-fn-2"><i
                             class="far fa-pause-circle"></i>Hold</button>
                 </div>
             </div>
@@ -66,7 +67,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="rules.html">Rules</a>
                     </li>
-
                 </ul>
                 <ul class="navbar-nav ml-auto nav-flex-icons">
                     <li class="nav-item">
@@ -85,7 +85,6 @@
                             <i class="fab fa-facebook-f"></i>
                         </a>
                     </li>
-
                 </ul>
             </div>
         </nav>

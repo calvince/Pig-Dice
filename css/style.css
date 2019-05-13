@@ -17,6 +17,7 @@ html {
 }
 body {
     background-color: #f2f2f2d7;
+    overflow-x: hidden;
 }
 .cont-2 h1,
 .cont-2-1 h1 {
@@ -58,6 +59,9 @@ hr {
 .globalScore2 {
     color: #fff;
 }
+.classHold{
+    cursor: not-allowed;
+}
 ul li {
     padding-right: 30px;
 }
@@ -71,6 +75,9 @@ ul li {
     display: none;
     margin-top: 6%;
     margin-bottom: 6%;
+}
+.hide{
+    display: none;
 }
 .rule-1 {
     color: #fff;

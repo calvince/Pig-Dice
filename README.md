@@ -8,9 +8,9 @@
 
 ## Project live site
 
-  This is the live .[ Click for the demo](https://calvince.github.io/Delani-Studio/)
+  This is the live .[ Click for the demo](https://calvince.github.io/Pig-Dice/)
 
-  ![Image](https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/59528642_2273632706257853_400193748287356928_n.jpg?_nc_cat=104&_nc_ht=scontent.fmba3-1.fna&oh=2910f382298c06a70ea9703b6dd629cc&oe=5D71A45D)
+  ![Image](https://scontent.fmba3-1.fna.fbcdn.net/v/t1.0-9/60117310_2278047069149750_8096990977710882816_n.jpg?_nc_cat=103&_nc_ht=scontent.fmba3-1.fna&oh=8b48ee25d7390b3004135193f77c7faa&oe=5D6CFBA0)
 
 ## Setup instructions
 
@@ -53,7 +53,7 @@
 </table>
 
 ####Bugs
-*_functionalities are not fully functioning_
+* _functionality in not fully functioning_
 
 ## Technologies Used
 * _HTML_

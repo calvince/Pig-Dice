@@ -2,87 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Pig Dice | Enjoy the game</title>
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
-  <link href="./css/bootstrap.min.css" rel="stylesheet">
-  <link href="./css/mdb.min.css" rel="stylesheet">
-  <link href="./css/style.css" rel="stylesheet">
-  <link rel="icon" href="http://www.mathsweek.ie/2018/wp-content/uploads/2015/10/pig210x315.png" type="image/icon">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Pig Dice | Enjoy the game</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+    <link href="./css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/mdb.min.css" rel="stylesheet">
+    <link href="./css/style.css" rel="stylesheet">
+    <link rel="icon" href="http://www.mathsweek.ie/2018/wp-content/uploads/2015/10/pig210x315.png" type="image/icon">
 </head>
 <body>
-    <div class="container cont-2">
-                <h1 class="text-center">PIG DICE</h1>
-              <div class="row rw-1">
-                 <div class="col-md-12 text-center">
-                    <button type="button" id="btn-1"  class="btn mdb-color darken-3 animated  infinite">Play Game <i class="fas fa-angle-double-down animated bounceIn infinite"></i></button>
-                 </div>
+    <div class="container cont-2 cont-2-3-1" id="cont-0">
+        <h1 class="text-center h1-1 rlr">PIG DICE</h1>
+        <div class="row rw-1">
+            <div class="col-md-12 text-center">
+                <button type="button" id="btn-1" class="btn mdb-color darken-3 animated  infinite">Play Game <i
+                        class="fas fa-angle-double-down animated bounceIn infinite"></i></button>
+            </div>
+        </div>
+        <div id="hide">
+            <div class="row rw-2 text-center">
+                <div class="col-md-4 active player-0-panel">
+                    <button type="button" id="btn-2" class="btn lime lighten-5 ">Player1<br>
+                        <hr><span class="btn-2 ">0</span></button>
+                    <p class="rlr">Dice roll:<span class="rollDice1"></span></p><br>
+                    <p class="rlr">Turn score:<span class="globalScore1"></span></p>
                 </div>
-                <div class="row rw-2 text-center">
-                 <div class="col-md-4 ">
-                    <button type="button" id="btn-2"  class="btn lime lighten-5 ">Player1<br><hr><span class="btn-2 ">0</span></button>
-                    <p>Dice roll:<span class="rollDice1"></span></p><br>
-                    <p>Turn score:<span class="globalScore1"></span></p> 
-                 </div>
-                 <div class="col-md-4">
-                    <button type="button" id="btn-2"  class="btn lime lighten-5 "><i class="fas fa-plus-circle"></i>New Game</button>
-                 </div>
-                 <div class="col-md-4">
-                    <button type="button" id="btn-2"  class="btn lime lighten-5">Player2<br><hr><span class="btn-2 ">0</span></button>
-                    <p>Dice roll:<span class="rollDice2"></span></p><br>
-                    <p>Turn score:<span class="globalScore2"></span></p> 
-                 </div>
+                <div class="col-md-4 ">
+                    <button type="button" id="btn-2" id="new-game" class="btn lime lighten-5 "><i class="fas fa-plus-circle"></i>New
+                        Game</button>
                 </div>
-                <div class="row rw-3 text-center">
-                  <div class="col-md-12">
-                      <button class="btn btn-roll "><i class="fas fa-volleyball-ball"></i>Roll</button>
-                      <button class="btn btn-hold "><i class="far fa-pause-circle"></i>Hold</button>
-                  </div>
+                <div class="col-md-4">
+                    <button type="button" id="btn-2" class="btn lime lighten-5">Player2<br>
+                        <hr><span class="btn-2 ">0</span></button>
+                    <p class="rlr">Dice roll:<span class="rollDice2"></span></p><br>
+                    <p class="rlr">Turn score:<span class="globalScore2"></span></p>
                 </div>
-                </div> 
+            </div>
+            <div class="row rw-3 text-center">
+                <div class="col-md-12">
+                    <button class="btn btn-roll mdb-color darken-3 rlr btn-roll "><i
+                            class="fas fa-volleyball-ball"></i>Roll</button>
+                    <button class="btn btn-hold mdb-color darken-3 rlr btn-hold"><i
+                            class="far fa-pause-circle"></i>Hold</button>
+                </div>
+            </div>
+        </div>
+    </div>
     <div class="container">
-                        <nav class=" navbar navbar-expand-lg navbar-dark special-color">
-                            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent-333"
-                              aria-controls="navbarSupportedContent-333" aria-expanded="false" aria-label="Toggle navigation">
-                              <span class="navbar-toggler-icon"></span>
-                            </button>
-                            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
-                              <ul class="navbar-nav mr-auto">
-                                <li class="nav-item active">
-                                  <a class="nav-link" href="index.html">Game
-                                    <span class="sr-only">(current)</span>
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link" href="rules.html">Rules</a>
-                                </li>
-                                
-                              </ul>
-                              <ul class="navbar-nav ml-auto nav-flex-icons">
-                                <li class="nav-item">
-                                  <a class="nav-link waves-effect waves-light">
-                                    <i class="fab fa-twitter"></i>
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link waves-effect waves-light">
-                                    <i class="fab fa-instagram"></i>
-                                  </a>
-                                </li>
-                                <li class="nav-item">
-                                  <a class="nav-link waves-effect waves-light">
-                                    <i class="fab fa-facebook-f"></i>
-                                  </a>
-                                </li>
-                          
-                              </ul>
-                            </div>
-                          </nav>
-                    </div>
- <script type="text/javascript" src="./js/jquery-3.4.0.min.js"></script>
- <script src="./js/mdb.min.js"></script>
- <script src="./js/bootstrap.min.js"></script>
- <script type="text/javascript" src="./js/script.js"></script>  
+        <nav class=" navbar navbar-expand-lg navbar-dark special-color">
+            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                data-target="#navbarSupportedContent-333" aria-controls="navbarSupportedContent-333"
+                aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent-333">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Game
+                            <span class="sr-only">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="rules.html">Rules</a>
+                    </li>
+
+                </ul>
+                <ul class="navbar-nav ml-auto nav-flex-icons">
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="https://twitter.com/login" target="_blank">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="https://www.instagram.com/accounts/login/"
+                            target="_blank">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link waves-effect waves-light" href="https://web.facebook.com/" target="_blank">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+    </div>
+    <script type="text/javascript" src="./js/jquery-3.4.0.min.js"></script>
+    <script src="./js/mdb.min.js"></script>
+    <script src="./js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="./js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.net.min.js"></script>
+    <script>
+        VANTA.NET({
+            el: "#cont-0",
+            shininess: 60.00,
+            waveSpeed: 1.20,
+            zoom: 1.26
+        })
+    </script>
 </body>
 </html>

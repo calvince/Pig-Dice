@@ -65,6 +65,6 @@
 ## Support and contact details
 contact me @ calmosh1421@gmail.com
 ### License
-The project is under[MIT license](https://github.com/calvince/Delani-Studio/blob/master/LICENSE)
+The project is under[MIT license](https://github.com/calvince/Pig-Dice/blob/master/LICENSE)
 Copyright &copy; 2019.All rigths reserved
   

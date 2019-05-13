@@ -14,7 +14,7 @@
 
 ## Setup instructions
 
-* _Clone the program from [Online repo](https://github.com/calvince/Delani-Studio)_
+* _Clone the program from [Online repo](https://github.com/calvince/Pig-Dice)_
 * _Click on the green button to clone or download_
 * _Open a HTML file with the browser of your choice_
 

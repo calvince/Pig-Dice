@@ -53,7 +53,7 @@
 </table>
 
 ####Bugs
-* _the functionality is not fully implemented_
+*_functionalities are not fully functioning_
 
 ## Technologies Used
 * _HTML_
